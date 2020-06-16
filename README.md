@@ -11,3 +11,7 @@
 If a video is loaded, "video_path" indicates the video path.“test_img_dir” indicates that the storage path of the predicted images needs to be specified without using a camera.“predict_result_save_dir” indicates the storage path of the prediction result without using the camera.  
 2.Run predict.py
 # Predict Result
+![Image text](https://raw.githubusercontent.com/1991yuyang/PFLD-PYTORCH/master/predict_result_img/1007_40_Gymnastics_Gymnastics_40_430_0.png)
+![Image text](https://raw.githubusercontent.com/1991yuyang/PFLD-PYTORCH/master/predict_result_img/100_30_Surgeons_Surgeons_30_773_0.png)
+![Image text](https://raw.githubusercontent.com/1991yuyang/PFLD-PYTORCH/master/predict_result_img/1011_38_Tennis_Tennis_38_69_0.png)
+![Image text](https://raw.githubusercontent.com/1991yuyang/PFLD-PYTORCH/master/predict_result_img/101_20_Family_Group_Family_Group_20_508_0.png)
