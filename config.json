@@ -1,0 +1,21 @@
+{
+  "train":{
+    "epoch": 70,
+    "batch_size": 32,
+    "weight_decay": 0.00005,
+    "lr": 0.001,
+    "lr_shrink_rate": 0.1,
+    "lr_shrink_epoch": 10,
+    "model_save_path": "./model_save",
+    "gpu_devices": [0],
+    "save_model_epoch": 1
+  },
+  "predict":{
+    "use_best_model": 1,
+    "use_camera": 1,
+    "is_video": 0,
+    "video_path": "H:/test_video.mp4",
+    "test_img_dir": "H:\\PFLD\\data\\test_data\\imgs",
+    "predict_result_save_dir": "H:\\PFLD_test_result"
+  }
+}

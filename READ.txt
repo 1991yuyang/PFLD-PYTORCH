@@ -1,0 +1,9 @@
+1.下载WFLW数据集并解压得到两个文件夹分别为WFLW_annotations和WFLW_images，将这两个文件夹放置在data/WFLW文件夹下，并将
+Mirror98.txt文件夹放置在WFLW_annotations下。
+2.运行data/data_sep.py文件，会在data目录下生成test_data和train_data两个文件夹，其中每个文件夹下都会有imgs文件夹和list.txt文件
+夹，imgs文件夹存放了处理完的图片（将人的头像从原图上剪切下来），list.txt文件夹中每一行代表imgs中的一张图片的信息，其中一行
+从左到右的信息以此为：图像路径+关键点坐标（98 * 2）+图像类型（表情、大姿态、等等6个）+欧拉角（3个）
+3.设置配置文件config.json中的train部分
+4.运行train.py练PFLD
+5.设置配置文件config.json中的predict部分
+6.运行predict.py进行预测
